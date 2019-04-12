@@ -24,7 +24,7 @@ duplicates = []
 i=0
 j=0
 
-while i < len(names_1) and j<len(names_2):
+while i < len(sorted1) and j<len(sorted2):
     if sorted1[i] == sorted2[j]:
         duplicates.append(sorted1[i])
         i+=1
